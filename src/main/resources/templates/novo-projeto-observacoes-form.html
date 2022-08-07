@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="https://www.thymeleaf.org/">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" th:href="@{/style.css}" />
+        <title>Nova Observação</title>
+    </head>
+    <body>
+        <div th:object="${projetoObservacoes}">
+            <div th:object="${projeto}">
+
+                <div class="caminho">
+                    <a href="/index.html">Home</a> > 
+                    <a href="/projeto/listar.html">Projetos</a> >
+                    <a th:href="@{listar.html}">Projeto</a>
+                </div>
+                <h1>Observações</h1>
+    
+                <h2>Informações do projeto</h2>
+
+                <label><b>ID: </b></label>
+                <span th:text="${projeto.id}"></span><br>
+                <label><b>Nome: </b></label>
+                <span th:text="${projeto.nome}"></span><br>
+                <label><b>Uri do repositório: </b></label>
+                <span th:text="${projeto.uriRepositorio}"></span><br>
+                <label><b>Uri do perfil: </b></label>
+                <span th:text="${projeto.uriPerfil}"></span>
+                <br><br>
+
+                <div id="area">
+                    <form th:action="@{nova.html}" method="POST">
+                        <fieldset>
+                            <legend>Formulário</legend>
+                            <label>Observação
+                                <select name="smell" id="smell" th:field="${projetoObservacoes.idObservacao}">
+                                    <option  th:each="observacao : ${observacoes}" th:value="${observacao.id}" th:text="${observacao.nome}"></option>
+                                </select>
+                            </label>
+                            <input type="hidden" th:field="${projetoObservacoes.idProjeto}" th:value="${projeto.id}"/>
+                            <input type="submit" value="Adicionar"/>
+                        </fieldset>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
