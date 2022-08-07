@@ -2,13 +2,23 @@
 <html lang="pt" xmlns:th="https://www.thymeleaf.org/">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" th:href="@{/style.css}" />
         <title>Escalas</title>
     </head>
     <body>
+        <div class="caminho">
+            <a href="/index.html">Home</a>
+        </div>
         <h1>Escalas</h1>
         <table>
             <thead>
-                <tr> <th>id</th> <th>Nome</th> <th>Uri para descrição</th> <th>Smell</th></tr>
+                <tr> 
+                    <th>id</th> 
+                    <th>Nome</th> 
+                    <th>Uri para descrição</th> 
+                    <th>Smell</th>
+                    <th colspan="2">Ações</th>
+                </tr>
             </thead>
             <tbody>
                 <tr th:each="escala: ${escalas}" th:object=${escala}>

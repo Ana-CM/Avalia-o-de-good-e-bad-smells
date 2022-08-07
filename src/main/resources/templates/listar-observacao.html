@@ -2,13 +2,23 @@
 <html lang="pt" xmlns:th="https://www.thymeleaf.org/">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" th:href="@{/style.css}" />
         <title>Observações</title>
     </head>
     <body>
+        <div class="caminho">
+            <a href="/index.html">Home</a>
+        </div>
         <h1>Observações</h1>
         <table>
             <thead>
-                <tr> <th>id</th> <th>Nome</th> <th>Uri para descrição</th> <th>Escala</th></tr>
+                <tr> 
+                    <th>id</th> 
+                    <th>Nome</th> 
+                    <th>Uri para descrição</th> 
+                    <th>Escala</th>
+                    <th colspan="2">Ações</th>
+                </tr>
             </thead>
             <tbody>
                 <tr th:each="observacao: ${observacoes}" th:object=${observacao}>
@@ -19,7 +29,6 @@
                     <div th:each="escalaObj : ${escalas}" th:object=${escalas}>
                         <td th:if="${escalaObj.id}==${observacao.escala}" th:text=${escalaObj.nome}></td>
                     </div>
-
 
                     <td><a th:href="@{./editar/{id}(id=*{id})}">Editar</a></td>
                     <td><a th:href="@{./excluir/{id}(id=*{id})}">Excluir</a></td>

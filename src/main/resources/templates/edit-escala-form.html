@@ -2,19 +2,30 @@
 <html lang="pt" xmlns:th="https://www.thymeleaf.org/">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" th:href="@{/style.css}" />
         <title>Editar escala</title>
     </head>
     <body>
-      <html>Editar escala</html>
-      <form th:action="@{../editar/{id}(id=*{id})}" th:object="${escala}" method="POST">
-        <input type="hidden" th:field="*{id}"/>
-        <label>Nome: <input type="text" th:field="*{nome}"/></label>
-        <label>Uri da descrição: <input type="text" th:field="*{uriDescricao}"/></label>
-        <div>
-            <input type="checkbox" id="smell" name="smell" th:field="*{smell}">
-            <label for="smell">É uma good smell? </label>
-        <div>
-        <input type="submit"/>
-    </form>
+        <div class="caminho">
+            <a href="/index.html">Home</a>
+        </div>
+        
+        <h1>Editar escala</h1>
+        <div id="area">
+            <form id="formulario" th:action="@{../editar/{id}(id=*{id})}" th:object="${escala}" method="POST">
+                <fieldset>
+                    <legend>Formulário</legend>
+                    <input type="hidden" th:field="*{id}"/>
+                    <label>Nome: <input type="text" class="campo" th:field="*{nome}"/></label><br>
+                    <label>Uri da descrição: <input class="campo" type="text" th:field="*{uriDescricao}"/></label><br>
+                    <div>
+                        <input type="checkbox" id="smell" name="smell" th:field="*{smell}">
+                        <label for="smell">É uma good smell? </label>
+                    <div><br>
+                    
+                    <input class="btn_submit" type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
     </body>
 </html>

@@ -2,23 +2,32 @@
 <html lang="pt" xmlns:th="https://www.thymeleaf.org/">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" th:href="@{/style.css}" />
         <title>Nova Observação</title>
     </head>
     <body>
-        <html>Nova Observação</html>
-        <form th:action="@{nova.html}" th:object="${observacao}" method="POST">
-            <label>Nome: 
-                <input type="text" th:field="*{nome}"/>
-            </label>
-            <label>Uri da descrição: 
-                <input type="text" th:field="*{uriDescricao}"/>
-            </label>
-            <label>Escala:
-                <select name="smell" id="smell" th:field="*{escala}">
-                    <option  th:each="escala : ${escalas}" th:value="${escala.id}" th:text="${escala.nome}"></option>
-                </select>
-            </label>
-            <input type="submit"/>
-        </form>
+        <div class="caminho">
+            <a href="/index.html">Home</a>
+        </div>
+        <h1>Nova Observação</h1>
+        <div id="area">
+            <form th:action="@{nova.html}" th:object="${observacao}" method="POST">
+                <fieldset>
+                    <legend>Formulário</legend>
+                    <label>Nome: 
+                        <input type="text" th:field="*{nome}"/>
+                    </label><br>
+                    <label>Uri da descrição: 
+                        <input type="text" th:field="*{uriDescricao}"/>
+                    </label><br>
+                    <label>Escala:
+                        <select name="smell" id="smell" th:field="*{escala}">
+                            <option  th:each="escala : ${escalas}" th:value="${escala.id}" th:text="${escala.nome}"></option>
+                        </select>
+                    </label><br><br>
+                    <input type="submit"/>
+                </fieldset>
+            </form>
+        </div>
     </body>
 </html>
