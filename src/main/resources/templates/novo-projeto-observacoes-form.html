@@ -37,7 +37,9 @@
                                     <option  th:each="observacao : ${observacoes}" th:value="${observacao.id}" th:text="${observacao.nome}"></option>
                                 </select>
                             </label>
-                            <input type="hidden" th:field="${projetoObservacoes.idProjeto}" th:value="${projeto.id}"/>
+                            <select name="smell" id="smell" th:field="${projetoObservacoes.idProjeto}" style="display:none">
+                                <option th:value="${projeto.id}"></option>
+                            </select>
                             <input type="submit" value="Adicionar"/>
                         </fieldset>
                     </form>

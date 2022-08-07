@@ -25,33 +25,34 @@
                 <br><br><br>
                 <a th:href="@{../../{id}/observacoes/nova.html(id=*{id})}">Adicionar Observação</a>
                 <br><br>
+                <table>
+                    <thead>
+                        <tr> 
+                            <th>Observação</th> 
+                            <th>URI para descrição</th> 
+                            <th>Escala</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <div th:each="projetoObservacao: ${projetoObservacoes}" th:object=${projetoObservacoes}>
+                            <div th:if="${projeto.id}==${projetoObservacao.idProjeto}">
+                                <div th:each="observacao: ${observacoes}" th:object=${observacao}>
+                                    <tr th:if="${observacao.id}==${projetoObservacao.idObservacao}">
+                                        <td th:text=${observacao.nome}></td>
+                                        <td th:text=${observacao.uriDescricao}></td>
+
+                                        <div th:each="escalaObj : ${escalas}" th:object=${escalas}>
+                                            <td th:if="${escalaObj.id}==${observacao.escala}" th:text=${escalaObj.nome}></td>
+                                        </div>
+                                        <td><a th:href="@{./excluir/{id}(id=${projetoObservacao.id})}">Remover</a></td>
+                                    </tr>
+                                </div>
+                            </div>
+                        </div>
+                    </tbody>
+                </table>
             </div>
         </div>
-
-        <table>
-            <thead>
-                <tr> 
-                    <th>Observação</th> 
-                    <th>URI para descrição</th> 
-                    <th>Escala</th>
-                    <th>Ações</th>
-                </tr>
-            </thead>
-            <tbody>
-                <div th:each="projetoObservacao: ${projetoObservacoes}" th:object=${projetoObservacao}>
-                    <div th:each="observacao: ${observacoes}" th:object=${observacao}>
-                        <tr th:if="${observacao.id}==${projetoObservacao.idObservacao}">
-                            <td th:text=${observacao.nome}></td>
-                            <td th:text=${observacao.uriDescricao}></td>
-
-                            <div th:each="escalaObj : ${escalas}" th:object=${escalas}>
-                                <td th:if="${escalaObj.id}==${observacao.escala}" th:text=${escalaObj.nome}></td>
-                            </div>
-                            <td><a th:href="@{./excluir/{id}(id=${projetoObservacao.id})}">Remover</a></td>
-                        </tr>
-                    </div>
-                </div>
-            </tbody>
-        </table>
     </body>
 </html>
