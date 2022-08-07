@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="https://www.thymeleaf.org/">
+    <head>
+        <meta charset="UTF-8">
+        <title>Editar observação</title>
+    </head>
+    <body>
+      <html>Editar observação</html>
+      <form th:action="@{../editar/{id}(id=*{id})}" th:object="${observacao}" method="POST">
+        <input type="hidden" th:field="*{id}"/>
+        <label>Nome: 
+            <input type="text" th:field="*{nome}"/>
+        </label>
+        <label>Uri da descrição: 
+            <input type="text" th:field="*{uriDescricao}"/>
+        </label>
+        <label>Escala:
+            <select name="smell" id="smell" th:field="*{escala}">
+                <option  th:each="escala : ${escalas}" th:value="${escala.id}" th:text="${escala.nome}"></option>
+            </select>
+        </label>
+        <input type="submit"/>
+    </form>
+    </body>
+</html>

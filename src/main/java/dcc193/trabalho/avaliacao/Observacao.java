@@ -11,16 +11,16 @@ public class Observacao {
     private Long id;
     private String nome;
     private String uriDescricao;
-    //private Long escala;
+    private Long escala;
 
     public Observacao() {
     }
 
-    public Observacao(Long id, String nome, String uriDescricao) {
+    public Observacao(Long id, String nome, String uriDescricao, Long escala) {
         this.id = id;
         this.nome = nome;
         this.uriDescricao = uriDescricao;
-        //this.escala = escala;
+        this.escala = escala;
     }
 
     public Long getId() {
@@ -47,11 +47,11 @@ public class Observacao {
         this.uriDescricao = uriDescricao;
     }
 
-    // public Long getEscala() {
-    //     return escala;
-    // }
+    public Long getEscala() {
+        return escala;
+    }
 
-    // public void setEscala(Long escala) {
-    //     this.escala = escala;
-    // }
+    public void setEscala(Long escala) {
+        this.escala = escala;
+    }
 }
