@@ -1,7 +1,15 @@
 package dcc193.trabalho.avaliacao;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+@Entity
 public class Escala {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
     private String nome;
     private String uriDescricao;
     private Boolean smell; // true = Good smell, false = Bad smell
@@ -9,10 +17,19 @@ public class Escala {
     public Escala() {
     }
 
-    public Escala(String nome, String uriDescricao, Boolean smell) {
+    public Escala(Long id, String nome, String uriDescricao, Boolean smell) {
+        this.id = id;
         this.nome = nome;
         this.uriDescricao = uriDescricao;
         this.smell = smell;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getNome() {

@@ -1,9 +1,17 @@
 package dcc193.trabalho.avaliacao;
 
 import java.util.List;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
+@Entity
 public class Projeto {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
     private String nome;
     private String uriRepositorio;
     private String uriPerfil;
@@ -12,18 +20,27 @@ public class Projeto {
     public Projeto() {
     }
 
-    public Projeto(String nome, String uriRepositorio, String uriPerfil ) {
+    public Projeto(Long id, String nome, String uriRepositorio, String uriPerfil ) {
+        this.id = id;
         this.nome = nome;
         this.uriRepositorio = uriRepositorio;
         this.uriPerfil = uriPerfil;
-        this.observacoes = null;
     }
 
-    public Projeto(String nome, String uriRepositorio, String uriPerfil, List <Observacao> observacoes) {
+    public Projeto(Long id, String nome, String uriRepositorio, String uriPerfil, List <Observacao> observacoes) {
+        this.id = id;
         this.nome = nome;
         this.uriRepositorio = uriRepositorio;
         this.uriPerfil = uriPerfil;
         this.observacoes = observacoes;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getNome() {

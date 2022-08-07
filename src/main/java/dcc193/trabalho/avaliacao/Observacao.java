@@ -1,7 +1,14 @@
 package dcc193.trabalho.avaliacao;
-
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+@Entity
 public class Observacao {
-    
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
     private String nome;
     private String uriDescricao;
     private Escala escala;
@@ -9,10 +16,19 @@ public class Observacao {
     public Observacao() {
     }
 
-    public Observacao(String nome, String uriDescricao, Escala escala) {
+    public Observacao(Long id, String nome, String uriDescricao, Escala escala) {
+        this.id = id;
         this.nome = nome;
         this.uriDescricao = uriDescricao;
         this.escala = escala;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getNome() {
