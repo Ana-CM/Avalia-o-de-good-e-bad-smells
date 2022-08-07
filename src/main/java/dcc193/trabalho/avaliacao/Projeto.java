@@ -15,7 +15,7 @@ public class Projeto {
     private String nome;
     private String uriRepositorio;
     private String uriPerfil;
-    private List <Observacao> observacoes;
+   // private List <Long> observacoes;
 
     public Projeto() {
     }
@@ -27,13 +27,13 @@ public class Projeto {
         this.uriPerfil = uriPerfil;
     }
 
-    public Projeto(Long id, String nome, String uriRepositorio, String uriPerfil, List <Observacao> observacoes) {
-        this.id = id;
-        this.nome = nome;
-        this.uriRepositorio = uriRepositorio;
-        this.uriPerfil = uriPerfil;
-        this.observacoes = observacoes;
-    }
+    // public Projeto(Long id, String nome, String uriRepositorio, String uriPerfil, List <Long> observacoes) {
+    //     this.id = id;
+    //     this.nome = nome;
+    //     this.uriRepositorio = uriRepositorio;
+    //     this.uriPerfil = uriPerfil;
+    //     this.observacoes = observacoes;
+    // }
 
     public Long getId() {
         return id;
@@ -67,11 +67,11 @@ public class Projeto {
         this.uriPerfil = uriPerfil;
     }
 
-    public List <Observacao> getObservacoes() {
-        return observacoes;
-    }
+    // public List <Long> getObservacoes() {
+    //     return observacoes;
+    // }
 
-    public void setObservacoes(List <Observacao> observacoes) {
-        this.observacoes = observacoes;
-    }
+    // public void setObservacoes(List <Long> observacoes) {
+    //     this.observacoes = observacoes;
+    // }
 }

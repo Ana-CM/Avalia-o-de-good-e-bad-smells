@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="https://www.thymeleaf.org/">
+    <head>
+        <meta charset="UTF-8">
+        <title>Nova Escala</title>
+    </head>
+    <body>
+        <html>Nova Escala</html>
+        <form th:action="@{nova.html}" th:object="${escala}" method="POST">
+            <label>Nome: <input type="text" th:field="*{nome}"/></label>
+            <label>Uri da descrição: <input type="text" th:field="*{uriDescricao}"/></label>
+            <div>
+                <input type="checkbox" id="smell" name="smell" th:field="*{smell}">
+                <label for="smell">É uma good smell? </label>
+            <div>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
