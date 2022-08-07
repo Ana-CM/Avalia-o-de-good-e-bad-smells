@@ -2,24 +2,21 @@
 <html lang="pt" xmlns:th="https://www.thymeleaf.org/">
     <head>
         <meta charset="UTF-8">
-        <title>Nova Escala</title>
+        <title>Novo Projeto</title>
         <link rel="stylesheet" th:href="@{/style.css}" />
     </head>
     <body>
         <div class="caminho">
             <a href="/index.html">Home</a>
         </div>
-        <h1>Nova Escala</h1>
+        <h1>Novo Projeto</h1>
         <div id="area">
-            <form th:action="@{nova.html}" th:object="${escala}" method="POST">
+            <form th:action="@{nova.html}" th:object="${projeto}" method="POST">
                 <fieldset>
                     <legend>Formulário</legend>
                     <label>Nome: <input type="text" th:field="*{nome}"/></label><br>
-                    <label>Uri da descrição: <input type="text" th:field="*{uriDescricao}"/></label><br>
-                    <div>
-                        <input type="checkbox" id="smell" name="smell" th:field="*{smell}">
-                        <label for="smell">É uma good smell? </label>
-                    <div><br>
+                    <label>Uri do repositório: <input type="text" th:field="*{uriRepositorio}"/></label><br>
+                    <label>Uri do perfil: <input type="text" th:field="*{uriPerfil}"/></label><br><br>
                     <input type="submit"/>
                 </fieldset>
             </form>

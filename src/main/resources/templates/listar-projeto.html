@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="https://www.thymeleaf.org/">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" th:href="@{/style.css}" />
+        <title>Projetos</title>
+    </head>
+    <body>
+        <div class="caminho">
+            <a href="/index.html">Home</a>
+        </div>
+        <h1>Projetos</h1>
+        <table>
+            <thead>
+                <tr> 
+                    <th>id</th> 
+                    <th>Nome</th> 
+                    <th>Uri para repositório</th> 
+                    <th>Uri para perfil</th> 
+                    <th colspan="3">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="projeto: ${projetos}" th:object=${projeto}>
+                    <td th:text=*{id}></td>
+                    <td th:text=*{nome}></td>
+                    <td th:text=*{uriRepositorio}></td>
+                    <td th:text=*{uriPerfil}></td>
+                    <td><a th:href="@{./editar/{id}(id=*{id})}">Observações</a></td>
+                    <td><a th:href="@{./editar/{id}(id=*{id})}">Editar</a></td>
+                    <td><a th:href="@{./excluir/{id}(id=*{id})}">Excluir</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

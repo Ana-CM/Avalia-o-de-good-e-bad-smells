@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="https://www.thymeleaf.org/">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" th:href="@{/style.css}" />
+        <title>Editar projeto</title>
+    </head>
+    <body>
+        <div class="caminho">
+            <a href="/index.html">Home</a>
+        </div>
+        <h1>Editar projeto</h1>
+        <div id="area">
+            <form id="formulario" th:action="@{../editar/{id}(id=*{id})}" th:object="${projeto}" method="POST">
+                <fieldset>
+                    <legend>Formulário</legend>
+                    <input type="hidden" th:field="*{id}"/>
+                    <label>Nome: 
+                        <input type="text" th:field="*{nome}"/>
+                    </label><br>
+                    <label>Uri do repositório: 
+                        <input type="text" th:field="*{uriRepositorio}"/>
+                    </label><br>
+                    <label>Uri do perfil: 
+                        <input type="text" th:field="*{uriPerfil}"/>
+                    </label><br><br>
+                    <input type="submit"/>
+                </fieldset>    
+            </form>
+        </div>
+    </body>
+</html>

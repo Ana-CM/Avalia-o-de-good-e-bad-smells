@@ -3068,3 +3068,777 @@ os.arch=amd64
 os.version=5.15.0-43-generic
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 16:16:06 BRT 2022:
+Shutting down instance ce0ac313-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 16:16:07 BRT 2022 Thread[Thread-1044,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 16:16:07 BRT 2022 Thread[Thread-1044,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 16:16:07 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 5303838d-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 16:16:13 BRT 2022:
+Shutting down instance 5303838d-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 16:16:14 BRT 2022 Thread[Thread-1059,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 16:16:14 BRT 2022 Thread[Thread-1059,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 16:16:14 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 7bef4397-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 17:37:52 BRT 2022:
+Shutting down instance 7bef4397-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 17:37:53 BRT 2022 Thread[Thread-1094,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:37:53 BRT 2022 Thread[Thread-1094,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:37:53 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 24f403a1-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 17:38:17 BRT 2022:
+Shutting down instance 24f403a1-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 17:38:17 BRT 2022 Thread[Thread-1109,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:38:17 BRT 2022 Thread[Thread-1109,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:38:18 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance ce11c3ab-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+Sun Aug 07 17:38:18 BRT 2022 Thread[Thread-1114,5,main] Cleanup action starting
+java.sql.SQLException: Database 'target/database.db' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: ERROR XJ004: Database 'target/database.db' not found.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 17 more
+============= begin nested exception, level (1) ===========
+ERROR XJ004: Database 'target/database.db' not found.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+============= end nested exception, level (1) ===========
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:38:18 BRT 2022:
+Shutting down instance ce11c3ab-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+----------------------------------------------------------------
+Sun Aug 07 17:38:19 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance f74883b5-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+Sun Aug 07 17:38:19 BRT 2022 Thread[Thread-1113,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:38:19 BRT 2022 Thread[Thread-1113,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:38:31 BRT 2022:
+Shutting down instance f74883b5-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 17:38:31 BRT 2022 Thread[Thread-1139,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:38:31 BRT 2022 Thread[Thread-1139,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:38:32 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 209843bf-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 17:38:56 BRT 2022:
+Shutting down instance 209843bf-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 17:38:57 BRT 2022 Thread[Thread-1154,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:38:57 BRT 2022 Thread[Thread-1154,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:38:57 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance ca0103c9-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 17:39:56 BRT 2022:
+Shutting down instance ca0103c9-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 17:39:57 BRT 2022 Thread[Thread-1169,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:39:57 BRT 2022 Thread[Thread-1169,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:39:57 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 7382c3d3-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 17:40:36 BRT 2022:
+Shutting down instance 7382c3d3-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 17:40:37 BRT 2022 Thread[Thread-1184,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:40:37 BRT 2022 Thread[Thread-1184,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:40:38 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 9d1d83dd-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 17:43:11 BRT 2022:
+Shutting down instance 9d1d83dd-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 17:43:11 BRT 2022 Thread[Thread-1199,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:43:11 BRT 2022 Thread[Thread-1199,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:43:12 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance c6d143e7-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 17:52:12 BRT 2022:
+Shutting down instance c6d143e7-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 17:52:13 BRT 2022 Thread[Thread-1214,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:52:13 BRT 2022 Thread[Thread-1214,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:52:13 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance ed83c406-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 17:52:41 BRT 2022:
+Shutting down instance ed83c406-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 17:52:42 BRT 2022 Thread[Thread-1229,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:52:42 BRT 2022 Thread[Thread-1229,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:52:42 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 079e0410-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Aug 07 17:53:32 BRT 2022:
+Shutting down instance 079e0410-0182-7899-2e31-000002692330 on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Sun Aug 07 17:53:32 BRT 2022 Thread[Thread-1244,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+Sun Aug 07 17:53:32 BRT 2022 Thread[Thread-1244,5,main] Cleanup action starting
+ERROR XBM0I: Directory target/database.db cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Cleanup action completed
+----------------------------------------------------------------
+Sun Aug 07 17:53:33 BRT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance e1d1441a-0182-7899-2e31-000002692330 
+on database directory /opt/lampp/htdocs/trabalho/avaliacao/target/database.db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2aae9190 
+Loaded from file:/home/ana/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.3+7
+user.dir=/opt/lampp/htdocs/trabalho/avaliacao
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-43-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
