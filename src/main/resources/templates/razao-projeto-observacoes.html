@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="https://www.thymeleaf.org/">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" th:href="@{/style.css}" />
+        <title>Escalas</title>
+    </head>
+    <body>
+        <div>
+            <div th:object="${projeto}">
+
+                <div class="caminho">
+                    <a href="/index.html">Home</a> > 
+                    <a href="/projeto/listar.html">Projetos</a> >
+                    <a th:href="@{listar.html}">Projeto</a>
+                </div>
+                <h1>Razão</h1>
+                <h2>Informações do projeto</h2>
+
+                <label><b>ID: </b></label>
+                <span th:text="*{id}"></span><br>
+                <label><b>Nome: </b></label>
+                <span th:text="*{nome}"></span><br>
+                <label><b>Uri do repositório: </b></label>
+                <span th:text="*{uriRepositorio}"></span><br>
+                <label><b>Uri do perfil: </b></label>
+                <span th:text="*{uriPerfil}"></span>
+                <br><br>
+
+                <h3>Razão entre observações no projeto</h3>
+                <table>
+                    <thead>
+                        <tr> 
+                            <th>Observação</th> 
+                            <th>Escala</th> 
+                            <th>Razão</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <div th:each="projetoObservacao: ${projetoObservacoes}" th:object=${projetoObservacoes}>
+                        
+                            <div th:each="observacao: ${observacoes}" th:object=${observacao}>
+                                
+                                <tr th:if="${observacao.id}==${projetoObservacao.idObservacao}">
+
+
+                                    
+                                    <td th:text=${observacao.nome}></td>
+                                
+                                    <div th:each="escalaObj : ${escalas}" th:object=${escalas}>
+                                        <td th:if="${escalaObj.id}==${observacao.escala}" th:text=${escalaObj.nome}></td>
+                                    </div>
+
+                                    <td> % ( /<span th:text=${projetoObservacoes.size()}></span>)</td>
+
+
+
+                                </tr>
+                            </div>
+                            
+                        </div>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

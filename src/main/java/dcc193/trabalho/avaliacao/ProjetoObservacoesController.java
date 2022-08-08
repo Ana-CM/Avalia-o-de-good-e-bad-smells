@@ -78,4 +78,20 @@ public class ProjetoObservacoesController {
 
         return mv;
     }
+
+    @GetMapping("/razao.html")
+    public ModelAndView razao(@PathVariable Long id) {
+        List<ProjetoObservacoes> projetoObservacoes = projetoObservacoesRepository.findByIdProjeto(id);
+        Projeto projeto = projetoRepository.findById(id).get();
+        List<Observacao> observacoes = observacaoRepository.findAll();
+        List<Escala> escalas = escalaRepository.findAll();
+
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("razao-projeto-observacoes");
+        mv.addObject("projeto", projeto);
+        mv.addObject("projetoObservacoes", projetoObservacoes);
+        mv.addObject("observacoes", observacoes);
+        mv.addObject("escalas", escalas);;
+        return mv;
+    }
 }

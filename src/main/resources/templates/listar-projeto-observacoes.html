@@ -23,7 +23,8 @@
                 <label><b>Uri do perfil: </b></label>
                 <span th:text="*{uriPerfil}"></span>
                 <br><br><br>
-                <a th:href="@{../../{id}/observacoes/nova.html(id=*{id})}">Adicionar Observação</a>
+                <a th:href="@{../../{id}/observacoes/nova.html(id=*{id})}">Adicionar Observação</a> |
+                <a th:href="@{../../{id}/observacoes/razao.html(id=*{id})}">Razão entre Observações</a>
                 <br><br>
                 <table>
                     <thead>
